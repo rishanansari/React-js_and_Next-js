@@ -1,0 +1,49 @@
+Building UI with Components
+
+Three core concept of react:
+Components
+Props
+State
+
+**Components**
+User interfaces can be broken down into smaller building blocks called components.
+![Alt text](image.png)
+
+In React, components are functions. Inside your script tag, create a new function called header.
+
+A component is a function that returns UI elements.
+
+To render this component to the DOM, pass it as the first argument in the ReactDOM.render() method:
+
+<script type="text/jsx">
+  const app = document.getElementById("app")
+ 
+ 
+  function Header() {
+    return (<h1>Develop. Preview. Ship.</h1>)
+  }
+ 
+  ReactDOM.render(<Header/>, app)
+</script>
+
+Notes:
+React components should be capitalized to distinguish them from plain HTML and JavaScript.
+React components the same way you'd use regular HTML tags, with angle brackets <>.
+
+**Nesting components**
+homepage -> header
+![Alt text](image-1.png)
+
+function Header() {
+  return <h1>Develop. Preview. Ship.</h1>;
+}
+ 
+function HomePage() {
+  return (
+    <div>
+      <Header />
+    </div>
+  );
+}
+ 
+ReactDOM.render(<HomePage />, app);
