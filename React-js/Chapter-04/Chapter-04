@@ -1,0 +1,22 @@
+Getting Started with React
+
+We need 2 React script to load React (unpkg.com)
+
+1. React
+2. React-Dom
+<script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+Now in previous chapter-03 we have multiple lines script to add one element.
+
+now remove all and add 1 ReactDom.render() method
+
+ <script type="text/jsx">
+      const app = document.getElementById('app');
+      ReactDOM.render(<h1>Develop. Preview. Ship.</h1>, app);
+</script>
+
+Syntax - errot -> add bable to understand the JSX
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+What is JSX: JSX is a syntax extension for JavaScript that allows you to describe your UI in a familiar HTML-like syntax.
