@@ -1,0 +1,20 @@
+Updating UI with Javascript
+
+In Basic html if we naeed to add on element or anything with the help of javascript so,
+We have several method to implement javascript into the HTMl boiler plate (DOM methods)
+
+
+Exapmle index.html
+
+1. To get the element with the help og id, class or tagname
+2. Create a new element 
+3. Add a text node 
+4. Append the childs one into another
+
+**HTML vs DOM**
+![Alt text](image.png)
+
+This is because the HTML represents the initial page content, whereas the DOM represents the updated page content which was changed by the JavaScript code you wrote.
+
+**Imperative vs Declarative**
+imperative programming is like giving a chef step-by-step instructions on how to make a pizza. Declarative programming is like ordering a pizza without being concerned about the steps it takes to make the pizza. 🍕
