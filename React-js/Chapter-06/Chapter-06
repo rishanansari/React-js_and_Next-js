@@ -1,0 +1,40 @@
+Displaying Data with Props
+
+What if you want to use you components multiple time and need to add different data for each of the Same Component.
+
+We can pass ddwn the data from parents to child components.
+
+**USING PROPS**
+child component, can accept those props as its first function parameter.
+
+continue to the sam example.
+passing the attribute like HTML or Argument as function to the component
+
+<Hedear title="React">
+
+child component, can accept those props as its first function parameter.
+function Header(props) {
+  return <h1>Develop. Preview. Ship.</h1>;
+}
+
+if you console.log(props) -> get object with property -> { title: "React" }
+
+Since props is an object, you can use object destructuring to explicitly name the values of props inside your function parameters
+
+function Header({ title }) {
+  console.log(title); // "React"
+  return <h1>Develop. Preview. Ship.</h1>;
+}
+
+You can replace the H1 content to the proprs.
+
+but wait it is a javascript writing inside the JSX so add curly braces {}.
+These are a special JSX syntax that allows you to write regular JavaScript directly inside your JSX markup.
+
+function Header({ title }) {
+  console.log(title);
+  return <h1>{title}</h1>;
+}
+
+we can add any javascript expression inside these curly braces {}.
+
