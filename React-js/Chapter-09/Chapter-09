@@ -1,0 +1,3 @@
+Installing Next.js
+
+When you use Next.js in your project, you do not need to load the react and react-dom scripts from unpkg.com anymore. Instead, you can install these packages locally using npm or your preferred package manager.
