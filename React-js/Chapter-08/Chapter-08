@@ -45,6 +45,8 @@ So far, we explored how you can get started with React. This is what the final c
   </body>
 </html>
 
+**From React to Next.js**
+
 While React excels at building UI, it does take some work to independently build that UI into a fully functioning scalable application. There are also newer React features, like Server and Client Components, that require a framework. The good news is that Next.js handles much of the setup and configuration and has additional features to help you build React applications.
 
 Next, we'll migrate the example from React to Next.js, discuss how Next.js works, and introduce you to the differences between Server and Client Components.
